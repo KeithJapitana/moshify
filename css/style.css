@@ -87,3 +87,34 @@ a {
     font-size: 1.5rem;
   }
 }
+/* Define the badge */
+.badge {
+  border-radius: 20px;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 0.5rem 2rem;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+/* Setting the BG skin and font */
+.badge--small {
+  font-size: 1.6rem;
+}
+.badge--primary {
+  background: var(--color-primary);
+  color: #fff;
+}
+.badge--secondary {
+  background: var(--color-secondary);
+  color: #fff;
+}
+
+/* Define it via Desktop Version */
+@media screen and (min-width: 1024px) {
+  .badge {
+    font-size: 1.5rem;
+  }
+  .badge--small {
+    font-size: 1.2rem;
+  }
+}
