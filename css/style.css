@@ -1,14 +1,15 @@
+:root {
+  /* define the color 1-3 */
+  --color-primary: #2584ff;
+  --color-secondary: #00d9ff;
+  --color-accent: #ff3400;
+  /* define the text color */
+  --color-headins: #1b0760;
+  --color-body: #918ca4;
+}
+
 body {
-  height: 100vh;
+  height: 500vh;
 
   background: linear-gradient(to top left, #28b487, #7dd56f);
-}
-h1 {
-  font-family: sans-serif;
-  font-size: 50px;
-  line-height: 1.3;
-  width: 100%;
-  padding: 30px;
-  text-align: center;
-  color: white;
 }
